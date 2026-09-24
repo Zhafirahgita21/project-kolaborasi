@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const paymentOptions = document.querySelectorAll('.payment-option');
     const btnBuatPesanan = document.getElementById('btnBuatPesanan');
 
-    // Menangani Event Pilihan Pembayaran
     if (paymentOptions.length > 0) {
         paymentOptions.forEach(option => {
             option.addEventListener('click', () => {
@@ -15,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Menangani Event Klik Tombol "Buat Pesanan" (Mencegah Alert 2x)
+
     if (btnBuatPesanan) {
         btnBuatPesanan.onclick = () => {
             const namaInput = document.getElementById('namaLengkap');

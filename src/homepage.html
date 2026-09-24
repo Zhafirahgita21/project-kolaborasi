@@ -1,459 +1,268 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Rumah Kukis - Cookies & Dessert</title>
 
-    <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
 
-    <!-- icon -->
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="homepage.css">
-    
-    <!-- JS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+
+    <link rel="stylesheet" href="homepage.css" />
+
+
     <script src="../back-end/homepage.js" defer></script>
-</head>
+  </head>
 
-<body>
-
-    <!-- ================= NAVBAR ================= -->
-
+  <body>
     <header class="navbar">
+      <a href="#home" class="logo">
+        <span>Rumah Kukis</span>
+        <small>Cookies & Dessert</small>
+      </a>
 
-        <a href="#home" class="logo">
-            <span>Rumah Kukis</span>
-            <small>Cookies & Dessert</small>
-        </a>
+      <button class="menu-toggle" id="menuToggle">☰</button>
 
-        <button class="menu-toggle" id="menuToggle">
-            ☰
-        </button>
+      <nav id="navMenu">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#products">Products</a>
+        <a href="#why-us">Why Us</a>
+        <a href="#contact">Contact</a>
+      </nav>
 
-        <nav id="navMenu">
-            <a href="#home">Home</a>
-            <a href="#about">About Us</a>
-            <a href="#products">Products</a>
-            <a href="#why-us">Why Us</a>
-            <a href="#contact">Contact</a>
-        </nav>
-
-        <!-- Klik tombol langsung mengarah ke checkout.html -->
-        <button class="order-btn" onclick="orderNow()">
-            Pesan Sekarang 🛍
-        </button>
-
+      <button class="order-btn" onclick="orderNow()">Pesan Sekarang 🛍</button>
     </header>
 
-
-    <!-- ================= HOMEPAGE ================= -->
-
     <main>
+      <!-- HERO -->
+      <section class="hero" id="home">
+        <div class="hero-text">
+          <p class="subtitle">Made with Love</p>
 
-        <!-- HERO -->
-        <section class="hero" id="home">
+          <h1>Sweet Moments</h1>
 
-            <div class="hero-text">
+          <p class="description">
+            Rumah Kukis hadir dengan cookies dan dessert yang berkualitas untuk
+            menemani mu saat sepi.
+          </p>
 
-                <p class="subtitle">
-                    Made with Love
-                </p>
+          <div class="hero-buttons">
+            <a href="#products" class="btn-primary"> Lihat Produk → </a>
 
-                <h1>
-                    Sweet Moments
-                </h1>
+            <a href="#about" class="btn-secondary"> Tentang Kami </a>
+          </div>
+        </div>
 
-                <p class="description">
-                    Rumah Kukis hadir dengan cookies dan dessert
-                    yang berkualitas untuk menemani mu saat sepi.
-                </p>
+        <div class="hero-image">
+          <img src="../assets/hero-section.png" alt="Cookies Rumah Kukis" />
+        </div>
+      </section>
 
-                <div class="hero-buttons">
+      <section class="about" id="about">
+        <div class="about-image">
+          <img src="../assets/about-me.png" alt="Aneka cookies" />
+        </div>
 
-                    <a href="#products" class="btn-primary">
-                        Lihat Produk →
-                    </a>
+        <div class="about-content">
+          <p class="subtitle">Tentang Kami →</p>
 
-                    <a href="#about" class="btn-secondary">
-                        Tentang Kami
-                    </a>
+          <h2>Dibuat dengan rasa, untuk setiap momen</h2>
 
-                </div>
+          <p>
+            Rumah Kukis hadir dengan berbagai cookies dan dessert yang dibuat
+            dari bahan pilihan. Kami ingin menghadirkan rasa manis yang cocok
+            dinikmati kapan saja, baik sendiri maupun bersama orang terdekat.
+          </p>
 
+          <div class="features">
+            <div class="feature">
+              <span>🍪</span>
+              <p>
+                Pilihan Bahan
+                <small>Kualitas Terbaik</small>
+              </p>
             </div>
 
-            <div class="hero-image">
-                <img src="../assets/hero-section.png" alt="Cookies Rumah Kukis">
+            <div class="feature">
+              <span>♡</span>
+              <p>
+                Dibuat dengan
+                <small>sepenuh hati</small>
+              </p>
             </div>
 
-        </section>
-
-
-        <!-- ================= ABOUT ================= -->
-
-        <section class="about" id="about">
-
-            <div class="about-image">
-                <img src="../assets/about-me.png" alt="Aneka cookies">
+            <div class="feature">
+              <span>♧</span>
+              <p>
+                Tanpa pengawet
+                <small>aman & higienis</small>
+              </p>
             </div>
+          </div>
+        </div>
+      </section>
 
-            <div class="about-content">
+      <!-- ================= PRODUCTS ================= -->
 
-                <p class="subtitle">
-                    Tentang Kami →
-                </p>
+      <section class="products" id="products">
+        <h2>Katalog Produk</h2>
 
-                <h2>
-                    Dibuat dengan rasa,
-                    untuk setiap momen
-                </h2>
+        <div class="product-container">
+          <a href="checkout.html" class="product-card-link">
+            <div class="product-card">
+              <div class="product-image">
+                <span> Best seller </span>
 
-                <p>
-                    Rumah Kukis hadir dengan berbagai cookies dan
-                    dessert yang dibuat dari bahan pilihan.
-                    Kami ingin menghadirkan rasa manis yang cocok
-                    dinikmati kapan saja, baik sendiri maupun
-                    bersama orang terdekat.
-                </p>
+                <img src="../assets/product1.png" alt="Dessert Chocolate" />
+              </div>
 
-                <div class="features">
+              <div class="product-info">
+                <h3>Dessert Chocolate</h3>
 
-                    <div class="feature">
-                        <span>🍪</span>
-                        <p>
-                            Pilihan Bahan
-                            <small>Kualitas Terbaik</small>
-                        </p>
-                    </div>
+                <p>Soft & Tasty</p>
 
-                    <div class="feature">
-                        <span>♡</span>
-                        <p>
-                            Dibuat dengan
-                            <small>sepenuh hati</small>
-                        </p>
-                    </div>
-
-                    <div class="feature">
-                        <span>♧</span>
-                        <p>
-                            Tanpa pengawet
-                            <small>aman & higienis</small>
-                        </p>
-                    </div>
-
-                </div>
-
+                <strong> 33.000 </strong>
+              </div>
             </div>
+          </a>
 
-        </section>
+          <a href="checkout.html" class="product-card-link">
+            <div class="product-card">
+              <div class="product-image">
+                <span> Best seller </span>
 
+                <img src="../assets/product2.png" alt="Choco Chip Cookies" />
+              </div>
 
-        <!-- ================= PRODUCTS ================= -->
+              <div class="product-info">
+                <h3>Choco Chip Cookies</h3>
 
-        <section class="products" id="products">
+                <p>Crunchy & Chewy</p>
 
-            <h2>
-                Katalog Produk
-            </h2>
-
-            <div class="product-container">
-
-
-                <!-- PRODUCT 1 -->
-                <a href="checkout.html" class="product-card-link">
-                    <div class="product-card">
-
-                        <div class="product-image">
-
-                            <span>
-                                Best seller
-                            </span>
-
-                            <img
-                                src="../assets/product1.png"
-                                alt="Dessert Chocolate"
-                            >
-
-                        </div>
-
-                        <div class="product-info">
-
-                            <h3>
-                                Dessert Chocolate
-                            </h3>
-
-                            <p>
-                                Soft & Tasty
-                            </p>
-
-                            <strong>
-                                33.000
-                            </strong>
-
-                        </div>
-
-                    </div>
-                </a>
-
-
-                <!-- PRODUCT 2 -->
-                <a href="checkout.html" class="product-card-link">
-                    <div class="product-card">
-
-                        <div class="product-image">
-
-                            <span>
-                                Best seller
-                            </span>
-
-                            <img
-                                src="../assets/product2.png"
-                                alt="Choco Chip Cookies"
-                            >
-
-                        </div>
-
-                        <div class="product-info">
-
-                            <h3>
-                                Choco Chip Cookies
-                            </h3>
-
-                            <p>
-                                Crunchy & Chewy
-                            </p>
-
-                            <strong>
-                                25.000
-                            </strong>
-
-                        </div>
-
-                    </div>
-                </a>
-
-
-                <!-- PRODUCT 3 -->
-                <a href="checkout.html" class="product-card-link">
-                    <div class="product-card">
-
-                        <div class="product-image">
-
-                            <span>
-                                New
-                            </span>
-
-                            <img
-                                src="../assets/product3.png"
-                                alt="Cookies Red Velvet"
-                            >
-
-                        </div>
-
-                        <div class="product-info">
-
-                            <h3>
-                                Cookies Red Velvet
-                            </h3>
-
-                            <p>
-                                Lembut & Enak
-                            </p>
-
-                            <strong>
-                                29.000
-                            </strong>
-
-                        </div>
-
-                    </div>
-                </a>
-
-
-                <!-- PRODUCT 4 -->
-                <a href="checkout.html" class="product-card-link">
-                    <div class="product-card">
-
-                        <div class="product-image">
-
-                            <span>
-                                New
-                            </span>
-
-                            <img
-                                src="../assets/product4.png"
-                                alt="Dessert Tiramisu"
-                            >
-
-                        </div>
-
-                        <div class="product-info">
-
-                            <h3>
-                                Dessert Tiramisu Latte
-                            </h3>
-
-                            <p>
-                                Lembut & Rich
-                            </p>
-
-                            <strong>
-                                29.000
-                            </strong>
-
-                        </div>
-
-                    </div>
-                </a>
-
+                <strong> 25.000 </strong>
+              </div>
             </div>
+          </a>
 
-        </section>
+          <a href="checkout.html" class="product-card-link">
+            <div class="product-card">
+              <div class="product-image">
+                <span> New </span>
 
+                <img src="../assets/product3.png" alt="Cookies Red Velvet" />
+              </div>
 
-        <!-- ================= WHY US ================= -->
+              <div class="product-info">
+                <h3>Cookies Red Velvet</h3>
 
-        <section class="why-us" id="why-us">
+                <p>Lembut & Enak</p>
 
-            <h2>
-                Kenapa pilih Rumah Kukis?
-            </h2>
-
-            <div class="why-container">
-
-
-                <div class="why-item">
-
-                    <div class="why-icon">
-                        ♧
-                    </div>
-
-                    <div>
-                        <h3>
-                            Fresh Every Day
-                        </h3>
-
-                        <p>
-                            Diproduksi setiap hari untuk
-                            menjaga rasa dan kualitas.
-                        </p>
-                    </div>
-
-                </div>
-
-
-                <div class="why-item">
-
-                    <div class="why-icon">
-                        ▣
-                    </div>
-
-                    <div>
-                        <h3>
-                            Packaging Cute
-                        </h3>
-
-                        <p>
-                            Desain packaging bagus
-                            dan rapi.
-                        </p>
-                    </div>
-
-                </div>
-
-
-                <div class="why-item">
-
-                    <div class="why-icon">
-                        ♢
-                    </div>
-
-                    <div>
-                        <h3>
-                            Harga Terjangkau
-                        </h3>
-
-                        <p>
-                            Kualitas premium dengan
-                            harga yang terjangkau.
-                        </p>
-                    </div>
-
-                </div>
-
+                <strong> 29.000 </strong>
+              </div>
             </div>
+          </a>
 
-        </section>
+          <a href="checkout.html" class="product-card-link">
+            <div class="product-card">
+              <div class="product-image">
+                <span> New </span>
 
+                <img src="../assets/product4.png" alt="Dessert Tiramisu" />
+              </div>
+
+              <div class="product-info">
+                <h3>Dessert Tiramisu Latte</h3>
+
+                <p>Lembut & Rich</p>
+
+                <strong> 29.000 </strong>
+              </div>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section class="why-us" id="why-us">
+        <h2>Kenapa pilih Rumah Kukis?</h2>
+
+        <div class="why-container">
+          <div class="why-item">
+            <div class="why-icon">♧</div>
+
+            <div>
+              <h3>Fresh Every Day</h3>
+
+              <p>Diproduksi setiap hari untuk menjaga rasa dan kualitas.</p>
+            </div>
+          </div>
+
+          <div class="why-item">
+            <div class="why-icon">▣</div>
+
+            <div>
+              <h3>Packaging Cute</h3>
+
+              <p>Desain packaging bagus dan rapi.</p>
+            </div>
+          </div>
+
+          <div class="why-item">
+            <div class="why-icon">♢</div>
+
+            <div>
+              <h3>Harga Terjangkau</h3>
+
+              <p>Kualitas premium dengan harga yang terjangkau.</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
-
-    <!-- ================= FOOTER ================= -->
-
     <footer id="contact">
+      <div class="footer-brand">
+        <h2>Rumah Kukis 🍪</h2>
 
-        <div class="footer-brand">
+        <small> Cookies & Dessert </small>
 
-            <h2>
-                Rumah Kukis 🍪
-            </h2>
+        <p>
+          Terimakasih telah mendukung kami. Setiap pembelian kamu sangat
+          berarti.
+        </p>
+      </div>
 
-            <small>
-                Cookies & Dessert
-            </small>
+      <div class="footer-links">
+        <h3>Quick Link</h3>
 
-            <p>
-                Terimakasih telah mendukung kami.
-                Setiap pembelian kamu sangat berarti.
-            </p>
+        <a href="#home">› Home</a>
+        <a href="#about">› About Us</a>
+        <a href="#products">› Products</a>
+        <a href="#why-us">› Why Us</a>
+        <a href="#contact">› Testimonials</a>
+      </div>
 
-        </div>
+      <div class="footer-social">
+        <h3>Follow Us</h3>
 
+        <p><i class="fa-brands fa-instagram"></i>RumahKukis</p>
 
-        <div class="footer-links">
+        <p><i class="fa-brands fa-tiktok"></i>@RumahKukis</p>
 
-            <h3>
-                Quick Link
-            </h3>
-
-            <a href="#home">› Home</a>
-            <a href="#about">› About Us</a>
-            <a href="#products">› Products</a>
-            <a href="#why-us">› Why Us</a>
-            <a href="#contact">› Testimonials</a>
-
-        </div>
-
-
-        <div class="footer-social">
-
-            <h3>
-                Follow Us
-            </h3>
-
-            <p>
-                <i class="fa-brands fa-instagram"></i>RumahKukis
-            </p>
-
-            <p>
-                <i class="fa-brands fa-tiktok"></i>@RumahKukis
-            </p>
-
-            <p>
-                <i class="fa-brands fa-whatsapp"></i>080838
-            </p>
-
-        </div>
-
+        <p><i class="fa-brands fa-whatsapp"></i>080838</p>
+      </div>
     </footer>
-
-</body>
+  </body>
 </html>
