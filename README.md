@@ -15,10 +15,10 @@
 
 | No. | Tugas                      | Penanggung Jawab | Status         | Issue |
 | --- | -------------------------- | ---------------- | -------------- | ----- |
-| 1   | Tampilan Front-End         | Front-End        | ✅ Done         | #1    |
-| 2   | Fungsi Back-End            | Back-End         | 🔄 In Progress | #2    |
-| 3   | Penyusunan README          | QA / Tester      | 🔄 In Progress | #3    |
-| 4   | Pengujian & Penanganan Bug | QA / Tester      | 🔄 In Progress | #4    |
+| 1   | Tampilan Front-End         | Front-End        |  Done         | #1    |
+| 2   | Fungsi Back-End            | Back-End         |  Done         | #2    |
+| 3   | Penyusunan README          | QA / Tester      |  Done         | #3    |
+| 4   | Pengujian & Penanganan Bug | QA / Tester      |  Done         | #4    |
 
 ## 🧪 Laporan Pengujian QA
 
