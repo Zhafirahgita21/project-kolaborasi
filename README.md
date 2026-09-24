@@ -32,5 +32,13 @@
 3. Jalankan `src/homepage.html` menggunakan **Live Server**.
 
 
+<img width="886" height="823" alt="image" src="https://github.com/user-attachments/assets/61256407-c32e-4d60-b7f5-99ea7e0bfbd0" />
 
 
+
+<img width="845" height="611" alt="image" src="https://github.com/user-attachments/assets/5223b4b1-9e3c-45ae-a904-bb711577ee7c" />
+
+
+
+
+<img width="811" height="637" alt="image" src="https://github.com/user-attachments/assets/f76c03a7-ea21-4056-bed4-1e6fc9f93387" />
